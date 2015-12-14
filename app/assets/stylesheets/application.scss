@@ -154,3 +154,25 @@ body {
     }
   }
 }
+.hero-header {
+  .main-text {
+     @media only screen and (max-width: 600px) {
+          font-size: 30px; 
+      }
+    }
+}
+
+
+.para-one {
+  @media only screen and (max-width: 600px) {
+  width: 100%;
+  float: left;
+  }
+}
+
+.para-two {
+  @media only screen and (max-width: 600px) {
+  width: 100%;
+  float: left;
+  }
+}
